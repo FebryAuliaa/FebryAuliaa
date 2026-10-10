@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="226" viewBox="0 0 860 226" role="img" aria-label="current mission">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      @keyframes l0 { 0%,4%{opacity:0} 8%,94%{opacity:1} 100%{opacity:0} }
+      .l0 { animation: l0 10s linear infinite; }
+      @keyframes l1 { 0%,18%{opacity:0} 22%,94%{opacity:1} 100%{opacity:0} }
+      .l1 { animation: l1 10s linear infinite; }
+      @keyframes l2 { 0%,32%{opacity:0} 36%,94%{opacity:1} 100%{opacity:0} }
+      .l2 { animation: l2 10s linear infinite; }
+      @keyframes l3 { 0%,46%{opacity:0} 50%,94%{opacity:1} 100%{opacity:0} }
+      .l3 { animation: l3 10s linear infinite; }
+      @keyframes l4 { 0%,60%{opacity:0} 64%,94%{opacity:1} 100%{opacity:0} }
+      .l4 { animation: l4 10s linear infinite; }
+    </style>
+    <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628"/>
+      <stop offset="100%" style="stop-color:#0D2B5E"/>
+    </linearGradient>
+    <linearGradient id="glowH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#60B8FF;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#1E88E5;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="226" fill="url(#mBg)" rx="10"/>
+
+  <!-- Top bar -->
+  <rect width="860" height="34" fill="#0D2B5E" rx="10"/>
+  <rect y="18" width="860" height="16" fill="#0D2B5E"/>
+  <circle cx="18" cy="17" r="6" fill="#1E3A5F"/>
+  <circle cx="38" cy="17" r="6" fill="#1565C0"/>
+  <circle cx="58" cy="17" r="6" fill="#1E88E5"/>
+  <text x="430" y="22" font-size="12" fill="#60B8FF" text-anchor="middle" font-weight="bold" letter-spacing="2">── current mission ──</text>
+
+  <!-- Content -->
+  <rect x="1" y="34" width="858" height="191" fill="#060E1A" stroke="#1565C0" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Glowing left border -->
+  <rect x="1" y="34" width="3" height="191" fill="#1E88E5" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Mission items -->
+  <g class="l0">
+    <rect x="14" y="62" width="832" height="26" fill="url(#glowH)"/>
+    <text x="28" y="80" font-size="13" fill="#4D96FF" font-weight="bold">▸ [01]</text>
+    <text x="90" y="80" font-size="13" fill="#A8D8FF">Membangun website yang indah dan fungsional</text>
+  </g>
+  <g class="l1">
+    <rect x="14" y="92" width="832" height="26" fill="url(#glowH)"/>
+    <text x="28" y="110" font-size="13" fill="#4D96FF" font-weight="bold">▸ [02]</text>
+    <text x="90" y="110" font-size="13" fill="#A8D8FF">Belajar desain UI/UX yang menarik &amp; user-friendly</text>
+  </g>
+  <g class="l2">
+    <rect x="14" y="122" width="832" height="26" fill="url(#glowH)"/>
+    <text x="28" y="140" font-size="13" fill="#4D96FF" font-weight="bold">▸ [03]</text>
+    <text x="90" y="140" font-size="13" fill="#A8D8FF">Eksplorasi Machine Learning &amp; Data Science</text>
+  </g>
+  <g class="l3">
+    <rect x="14" y="152" width="832" height="26" fill="url(#glowH)"/>
+    <text x="28" y="170" font-size="13" fill="#4D96FF" font-weight="bold">▸ [04]</text>
+    <text x="90" y="170" font-size="13" fill="#A8D8FF">Berkontribusi ke proyek open source</text>
+  </g>
+  <g class="l4">
+    <text x="28" y="208" font-size="13" fill="#4D96FF" font-weight="bold">▸ STATUS :</text>
+    <text x="130" y="208" font-size="13" fill="#60B8FF" font-weight="bold">ACTIVE</text>
+    <!-- Animated blocks -->
+    <rect x="200" y="196" width="8" height="14" fill="#60B8FF">
+      <animate attributeName="opacity" values="0.2;1;1;0.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.05;0.9;1"/>
+    </rect>
+    <rect x="212" y="196" width="8" height="14" fill="#4D96FF">
+      <animate attributeName="opacity" values="0.2;1;1;0.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.1;0.9;1"/>
+    </rect>
+    <rect x="224" y="196" width="8" height="14" fill="#1E88E5">
+      <animate attributeName="opacity" values="0.2;1;1;0.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.15;0.9;1"/>
+    </rect>
+    <rect x="236" y="196" width="8" height="14" fill="#1565C0">
+      <animate attributeName="opacity" values="0.2;1;1;0.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.2;0.9;1"/>
+    </rect>
+    <rect x="248" y="196" width="8" height="14" fill="#0D47A1">
+      <animate attributeName="opacity" values="0.2;1;1;0.2" dur="4s" repeatCount="indefinite" keyTimes="0;0.25;0.9;1"/>
+    </rect>
+  </g>
+
+  <!-- Glow orb right -->
+  <circle cx="800" cy="130" r="60" fill="#1565C0" opacity="0.06">
+    <animate attributeName="r" values="60;80;60" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>

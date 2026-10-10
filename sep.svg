@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="20" viewBox="0 0 860 20" role="img" aria-label="separator">
+  <defs>
+    <linearGradient id="sepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0D47A1;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#1565C0;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#60B8FF;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#1565C0;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0D47A1;stop-opacity:0"/>
+      <animate attributeName="x1" values="0%;-100%;0%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect y="8" width="860" height="2" rx="1" fill="url(#sepGrad)"/>
+  <circle cx="430" cy="9" r="3" fill="#4D96FF">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

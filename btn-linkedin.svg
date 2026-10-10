@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="48" viewBox="0 0 280 48" role="img" aria-label="LinkedIn">
+  <defs>
+    <style>text { font-family: 'Segoe UI', Arial, sans-serif; }</style>
+    <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0"/><stop offset="100%" style="stop-color:#1E88E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="48" fill="url(#lBg)" rx="6" stroke="#60B8FF" stroke-opacity="0.4" stroke-width="1"/>
+  <rect x="0" y="0" width="280" height="48" fill="#A8D8FF" rx="6" opacity="0">
+    <animate attributeName="opacity" values="0;0.1;0" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="90" y="31" font-size="14" fill="#E3F2FD" text-anchor="middle" font-weight="bold">⬡ LinkedIn</text>
+</svg>

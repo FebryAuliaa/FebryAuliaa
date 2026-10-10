@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-label="about">
+  <defs>
+    <style>text { font-family: 'Segoe UI', Arial, sans-serif; }</style>
+    <linearGradient id="bgAbout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628"/>
+      <stop offset="100%" style="stop-color:#0D2B5E"/>
+    </linearGradient>
+    <linearGradient id="labelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60B8FF"/>
+      <stop offset="100%" style="stop-color:#A8D8FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="240" fill="url(#bgAbout)" rx="10"/>
+
+  <!-- Top bar -->
+  <rect width="860" height="34" fill="#0D2B5E" rx="10"/>
+  <rect y="18" width="860" height="16" fill="#0D2B5E"/>
+  <circle cx="18" cy="17" r="6" fill="#1E3A5F"/>
+  <circle cx="38" cy="17" r="6" fill="#1565C0"/>
+  <circle cx="58" cy="17" r="6" fill="#1E88E5"/>
+  <text x="430" y="22" font-size="12" fill="#60B8FF" text-anchor="middle" font-weight="bold" letter-spacing="2">── about.txt ──</text>
+
+  <!-- Content -->
+  <rect x="1" y="34" width="858" height="205" fill="#060E1A" stroke="#1565C0" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Glowing left border accent -->
+  <rect x="1" y="34" width="3" height="205" fill="#1E88E5" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Info rows -->
+  <text x="30" y="78" font-size="13" fill="#4D96FF" font-weight="bold">▸ Nama</text>
+  <text x="180" y="78" font-size="13" fill="#A8D8FF">Febry</text>
+
+  <text x="30" y="106" font-size="13" fill="#4D96FF" font-weight="bold">▸ Role</text>
+  <text x="180" y="106" font-size="13" fill="#A8D8FF">Web Developer | Creative Coder</text>
+
+  <text x="30" y="134" font-size="13" fill="#4D96FF" font-weight="bold">▸ Universitas</text>
+  <text x="180" y="134" font-size="13" fill="#A8D8FF">Universitas Negeri Makassar</text>
+
+  <text x="30" y="162" font-size="13" fill="#4D96FF" font-weight="bold">▸ Jurusan</text>
+  <text x="180" y="162" font-size="13" fill="#A8D8FF">Teknik Komputer</text>
+
+  <text x="30" y="190" font-size="13" fill="#4D96FF" font-weight="bold">▸ Hobi</text>
+  <text x="180" y="190" font-size="13" fill="#A8D8FF">Coding · Desain · Eksplorasi Teknologi</text>
+
+  <!-- Status row -->
+  <text x="30" y="220" font-size="13" fill="#4D96FF" font-weight="bold">▸ Status</text>
+  <text x="180" y="220" font-size="13" fill="#60B8FF" font-weight="bold">ONLINE</text>
+
+  <!-- Animated dots -->
+  <circle cx="252" cy="216" r="4" fill="#60B8FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="264" cy="216" r="4" fill="#4D96FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="276" cy="216" r="4" fill="#1E88E5">
+    <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+
+  <!-- Decorative right glow -->
+  <circle cx="820" cy="120" r="50" fill="#1565C0" opacity="0.07">
+    <animate attributeName="r" values="50;70;50" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

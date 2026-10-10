@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="60" viewBox="0 0 860 60" role="img" aria-label="contact">
+  <defs>
+    <style>text { font-family: 'Segoe UI', Arial, sans-serif; }</style>
+    <linearGradient id="cBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628"/>
+      <stop offset="100%" style="stop-color:#0D2B5E"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="60" fill="url(#cBg)" rx="10"/>
+  <text x="430" y="28" font-size="14" fill="#60B8FF" text-anchor="middle" font-weight="bold" letter-spacing="2">── Get In Touch ──</text>
+  <text x="430" y="48" font-size="11" fill="#4D96FF" text-anchor="middle" letter-spacing="1">Let's build something amazing together 🚀</text>
+</svg>
