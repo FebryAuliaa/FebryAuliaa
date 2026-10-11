@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.svg" alt="FEBRY AULIA UTAMI A- Web Developer | Creative Coder | UI/UX Enthusiast" width="100%">
+<img src="banner.svg" alt="FEBRY- Web Developer | Creative Coder | UI/UX Enthusiast" width="100%">
 
 </div>
 
